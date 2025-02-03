@@ -10,7 +10,7 @@ function Profile({ name, tag, location, image, stats }) {
         <p className={css.profileLocation}>{location}</p>
       </div>
 
-      <ul>
+      <ul className={css.listProfile}>
         <li>
           <span>Followers</span>
           <span>{stats.followers}</span>

@@ -1,0 +1,14 @@
+.online {
+  color: green;
+}
+
+.offline {
+  color: red;
+}
+.friendItem {
+  border: 1px solid black;
+  border-radius: 5%;
+}
+.pName {
+  font-weight: bold;
+}
